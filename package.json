@@ -1,0 +1,25 @@
+{
+  "name": "simple-diamond-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot --inline --mode development",
+    "start": "webpack-dev-server --open --hot --inline --mode development",
+    "build": "webpack",
+    "test": "webpack && serve ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.tcpay.info/static-web/simple-diamond-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.39.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
